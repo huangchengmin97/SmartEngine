@@ -377,6 +377,11 @@
                     <encoding>${java.file.encoding}</encoding>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>edu.illinois</groupId>
+                <artifactId>nondex-maven-plugin</artifactId>
+                <version>1.1.2</version>
+            </plugin>
 
             <plugin>
                 <!-- COPY FROM https://github.com/EsotericSoftware/kryo/blob/master/pom-shaded.xml -->
